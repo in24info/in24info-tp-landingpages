@@ -1,0 +1,17 @@
+baseURL = "http://bewussterwachen.de/"
+title = "Bewussterwachen Landing Page"
+theme = "meghna"
+defaultContentLanguage = "de"
+
+[languages]
+  [languages.de]
+    languageName = "Deutsch"
+    weight = 1
+
+[params]
+  description = "Dies ist die offizielle Bewussterwachen Landingpage von Kurt Tepperwein."
+  author = "Kurt Tepperwein"
+
+[outputs]
+  home = ["HTML", "RSS"]
+

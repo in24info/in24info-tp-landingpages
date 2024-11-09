@@ -1,0 +1,31 @@
+baseURL = 'http://localhost:1313/'
+title = 'Kurt Tepperwein - Seminar Landingpages'
+theme = 'meghna'
+defaultContentLanguage = "de"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[languages]
+  [languages.bewussterwachen]
+    baseURL = "http://bewussterwachen.de/"
+    title = "Bewussterwachen Landing Page"
+    contentDir = "content/bewussterwachen"
+    languageName = "Deutsch"
+
+  [languages.leben]
+    baseURL = "http://leben-im-erwachten-bewusstsein.de/"
+    title = "Leben im Erwachten Bewusstsein Landing Page"
+    contentDir = "content/leben-im-erwachten-bewusstsein"
+    languageName = "Deutsch"
+
+  [languages.zentrum]
+    baseURL = "http://zentrum-des-seins.de/"
+    title = "Zentrum des Seins Landing Page"
+    contentDir = "content/zentrum-des-seins"
+    languageName = "Deutsch"
+
+[params]
+  description = "Seminare von Kurt Tepperwein"
+  author = "Kurt Tepperwein"
+
